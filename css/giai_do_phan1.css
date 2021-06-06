@@ -1,0 +1,44 @@
+
+img{
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10%;
+    position: absolute;
+}
+img:hover{
+    transform: scale(1.2);
+}
+h1{
+    text-align:  center;
+}
+details{
+    margin-top: 565px;
+    color: red;
+}
+details summary{
+    position: absolute;
+    z-index: -1;  
+    color: black   ;
+}
+details p{
+    position: absolute;
+    z-index: 1;  
+    width: fit-content;
+    padding: 1%;
+    background-color: aliceblue;
+}
+#show{
+    overflow: hidden;
+   position: absolute; 
+   background-color: aqua;
+   text-align: center;
+   padding: 5%;
+   z-index: 1000;
+   margin-left: 35%;
+   font-size: larger;
+   font-weight: bolder;
+   display: none;
+}
+#show2{
+    color: red;
+}
